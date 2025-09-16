@@ -1,7 +1,18 @@
+
+
+
 .encabezado{
-    display: flex;
+
+    display: ;
+    text-align: center;
+    background-color: ;
 }
 * {
     padding: 10;
     margin: 100;
+}
+
+.logo{
+
+    width: 50px;
 }
