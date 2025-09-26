@@ -1,0 +1,79 @@
+[
+    {
+        "id": 1,
+        "nombre": "Aparador Uspallata",
+        "descripcion":"Aparador",
+        "precio":4500,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/AparadorUspallata.png"
+    },
+        {
+        "id": 2,
+        "nombre": "Biblioteca Recoleta",
+        "descripcion":"Biblioteca",
+        "precio":6000,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/BibliotecaRecoleta.png"
+    },
+        {
+        "id": 3,
+        "nombre": "Butaca Mendoza",
+        "descripcion":"Butaca",
+        "precio":5000,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/ButacaMendoza.png"
+    },
+        {
+        "id": 4,
+        "nombre": "Escritorio Costa",
+        "descripcion":"Escritorio",
+        "precio":5500,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/EscritorioCosta.png"
+    },
+        {
+        "id": 5,
+        "nombre": "Mesa Comedor Pampa",
+        "descripcion":"Mesa",
+        "precio":6500,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/MesaComedorPampa.png"
+    },
+        {
+        "id": 6,
+        "nombre": "Mesa de Centro Araucaria",
+        "descripcion":"Mesa de Centro",
+        "precio":7000,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/MesaDeCentroAraucaria.png"
+    },
+        {
+        "id": 7,
+        "nombre": "Mesa De Noche Aconcagua",
+        "descripcion":"Mesa de Noche",
+        "precio":4000,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/MesaDeNocheAconcagua.png"
+    },
+        {
+        "id": 8,
+        "nombre": "Silla De Trabajo Belgrano",
+        "descripcion":"Silla",
+        "precio":3000,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/SillaDeTrabajoBelgrano.png"
+    },
+        {
+        "id": 9,
+        "nombre": "Sillas Córdoba",
+        "descripcion":"Sillas",
+        "precio":3500,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/SillasCórdoba.png"
+    },
+        {
+        "id": 10,
+        "nombre": "Sillón Copacabana",
+        "descripcion":"Sillón",
+        "precio":8000,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/SillónCopacabana.png"
+    },
+        {
+        "id": 11,
+        "nombre": "Sofá Patagonia",
+        "descripcion":"Sofá",
+        "precio":9000,
+        "imagen":"https://ruizxgonzalo.github.io/catalogo/SofáPatagonia.png"
+    }
+]
