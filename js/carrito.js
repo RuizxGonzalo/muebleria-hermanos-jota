@@ -2,10 +2,10 @@ export function agregarAlCarrito(p){
     let carrito = JSON.parse(localStorage.getItem("carrito")) || []
 
     const objeto_producto = {
-        id: producto.id,
-        nombre: producto.nombre, 
-        descripcion: producto.descripcion,
-        precio: producto.precio,
+        id: p.id,
+        nombre: p.nombre, 
+        descripcion: p.descripcion,
+        precio: p.precio,
         cantidad: 1
     }
 
@@ -17,5 +17,25 @@ export function agregarAlCarrito(p){
     }
 
         localStorage.setItem("carrito", JSON.stringify(carrito))
-        alert()
+        alert(`${producto.nombre} agregado al carrito`)
+        actulizarContador()
+}
+
+export function actulizarContador(){
+    const carrito = JSON.parse(localStorage.getItem("carrito")) || []
+    const total = carrito?.reduce((acc, p)=> acc + p.cantidad, 0)
+    const nodoCont = document.getElementById("contador-carrito")
+    if(nodoCont){
+        nodoCont.textContent = total
+    }
+    
+}
+
+export function limpiarCarrito(){
+    localStorage.removeItem("carrito")
+    setTimeout(()=>{
+        // const div_eliminar = document.getElementById("boton_eliminar")
+        // div_eliminar.textContent = " "
+    })
+    actulizarContador()
 }

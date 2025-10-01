@@ -1,3 +1,4 @@
+import { actulizarContador } from "./carrito.js"
 import { cargarCatalogo } from "./catalogo.js"
 document.addEventListener("DOMContentLoaded", ()=>{
     const pagina = window.location.pathname
@@ -7,4 +8,5 @@ document.addEventListener("DOMContentLoaded", ()=>{
         .then(data => cargarCatalogo(data))
         .catch(err => console.error("Error al cargar productos:"))
     }
+    actulizarContador()
 })
